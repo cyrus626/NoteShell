@@ -1,0 +1,16 @@
+C:\Users\PHILLIP\source\repos\NoteShell\bin\Debug\net5.0\NoteShell.exe
+C:\Users\PHILLIP\source\repos\NoteShell\bin\Debug\net5.0\NoteShell.deps.json
+C:\Users\PHILLIP\source\repos\NoteShell\bin\Debug\net5.0\NoteShell.runtimeconfig.json
+C:\Users\PHILLIP\source\repos\NoteShell\bin\Debug\net5.0\NoteShell.runtimeconfig.dev.json
+C:\Users\PHILLIP\source\repos\NoteShell\bin\Debug\net5.0\NoteShell.dll
+C:\Users\PHILLIP\source\repos\NoteShell\bin\Debug\net5.0\ref\NoteShell.dll
+C:\Users\PHILLIP\source\repos\NoteShell\bin\Debug\net5.0\NoteShell.pdb
+C:\Users\PHILLIP\source\repos\NoteShell\obj\Debug\net5.0\NoteShell.csprojAssemblyReference.cache
+C:\Users\PHILLIP\source\repos\NoteShell\obj\Debug\net5.0\NoteShell.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PHILLIP\source\repos\NoteShell\obj\Debug\net5.0\NoteShell.AssemblyInfoInputs.cache
+C:\Users\PHILLIP\source\repos\NoteShell\obj\Debug\net5.0\NoteShell.AssemblyInfo.cs
+C:\Users\PHILLIP\source\repos\NoteShell\obj\Debug\net5.0\NoteShell.csproj.CoreCompileInputs.cache
+C:\Users\PHILLIP\source\repos\NoteShell\obj\Debug\net5.0\NoteShell.dll
+C:\Users\PHILLIP\source\repos\NoteShell\obj\Debug\net5.0\ref\NoteShell.dll
+C:\Users\PHILLIP\source\repos\NoteShell\obj\Debug\net5.0\NoteShell.pdb
+C:\Users\PHILLIP\source\repos\NoteShell\obj\Debug\net5.0\NoteShell.genruntimeconfig.cache
