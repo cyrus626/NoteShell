@@ -14,3 +14,5 @@ C:\Users\PHILLIP\source\repos\NoteShell\obj\Debug\net5.0\NoteShell.dll
 C:\Users\PHILLIP\source\repos\NoteShell\obj\Debug\net5.0\ref\NoteShell.dll
 C:\Users\PHILLIP\source\repos\NoteShell\obj\Debug\net5.0\NoteShell.pdb
 C:\Users\PHILLIP\source\repos\NoteShell\obj\Debug\net5.0\NoteShell.genruntimeconfig.cache
+C:\Users\PHILLIP\source\repos\NoteShell\bin\Debug\net5.0\LiteDB.dll
+C:\Users\PHILLIP\source\repos\NoteShell\obj\Debug\net5.0\NoteShell.csproj.CopyComplete

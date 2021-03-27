@@ -7,8 +7,19 @@
   "targets": {
     ".NETCoreApp,Version=v5.0": {
       "NoteShell/1.0.0": {
+        "dependencies": {
+          "LiteDB": "5.0.10"
+        },
         "runtime": {
           "NoteShell.dll": {}
+        }
+      },
+      "LiteDB/5.0.10": {
+        "runtime": {
+          "lib/netstandard2.0/LiteDB.dll": {
+            "assemblyVersion": "5.0.10.0",
+            "fileVersion": "5.0.10.0"
+          }
         }
       }
     }
@@ -18,6 +29,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "LiteDB/5.0.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-x70WuqMDuP75dajqSLvO+AnI/BbwS6da+ukTO7rueV7VoXoQ5CRA9FV4r7cOS4OUr2NS1Up7LDIutjCxQycRvg==",
+      "path": "litedb/5.0.10",
+      "hashPath": "litedb.5.0.10.nupkg.sha512"
     }
   }
 }
