@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "jP4zqJd0n9ez1/vDMGycaDyPpPdQb2uBEGDvLOfdfBX17emsudQmB7MW9ykJiQPfyKRShN3Pi9LgFedl4R1GUg==",
+  "dgSpecHash": "FIxcIqGW2/R11rCmzmqqHmXCf3LZfbxkHC8AZ1PnYzq1kL0TAjJ6hxZ+B97lmXs4H131vJz7rJvW4ZefllY92A==",
   "success": true,
   "projectFilePath": "C:\\Users\\PHILLIP\\source\\repos\\NoteShell\\NoteShell.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\PHILLIP\\.nuget\\packages\\litedb\\5.0.10\\litedb.5.0.10.nupkg.sha512"
+  ],
   "logs": []
 }
