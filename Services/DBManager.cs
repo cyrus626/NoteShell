@@ -27,7 +27,11 @@ namespace NoteShell.Services
 			var collection = NoteDB.GetCollection<Note>(nameof(Note));
 			return collection.FindOne(note => note.NoteName == noteName);
 		}
-
+		public static void DeleteNote(int noteId)
+        {
+			var collection = NoteDB.GetCollection<Note>(nameof(Note));
+			collection.Delete(noteId);
+        }
 		public static List<Note> GetNotes()
         {
 			var collection = NoteDB.GetCollection<Note>(nameof(Note));

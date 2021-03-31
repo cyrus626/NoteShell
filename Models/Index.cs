@@ -25,7 +25,7 @@ namespace NoteShell.Models.Index
                     Console.WriteLine("2. View Notes");
                     Console.WriteLine("3. View a Note");
                     Console.WriteLine("4. Exit the console");
-                    Console.Write("Enter an option (1, 2 0r 3)> ");
+                    Console.Write("Enter an option (1, 2, 3 or 4)> ");
                     flagRes = Int32.TryParse(Console.ReadLine(), out response);
                 }
                 catch(Exception ex)
@@ -73,6 +73,7 @@ namespace NoteShell.Models.Index
 
             }
             Console.WriteLine("Error: File not found!");
+            NoteShellInitials();
         }
         #endregion
         #region
@@ -107,7 +108,7 @@ namespace NoteShell.Models.Index
             {
                 if(flagNoteId == false)
                 {
-                    Console.WriteLine("Wrong input try again> ");
+                    Console.Write("Wrong input try again");
                     Console.ReadKey();
                     ViewNoteById();
                 }
@@ -141,7 +142,18 @@ namespace NoteShell.Models.Index
                     }
                     else if (reply.ToLower().Equals("d"))
                     {
-                        Console.WriteLine("Execise patient, Working in progress...");
+                        Console.WriteLine("The note will be deleted, do you wish to continue? (Y/N)> ");
+                        string res = Console.ReadLine();
+                        if(res.ToLower() == "y")
+                        {
+                            DBManager.DeleteNote(noteId);
+                            Console.Write("Note was deleted \n click enter to continue");
+                            Console.Read();
+                        }
+                        else
+                        {
+                            ViewCurrentNote(noteId);
+                        }
                     }
                     else if (reply.ToLower().Equals("b"))
                     {
@@ -227,5 +239,6 @@ namespace NoteShell.Models.Index
             
         }
         #endregion
+        
     }
 }
